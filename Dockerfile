@@ -22,7 +22,7 @@ ENV BASEROW_ENABLE_ENTERPRISE=true
 
 # Health check for Railway
 HEALTHCHECK --interval=30s --timeout=30s --start-period=5s --retries=3 \
-    CMD curl -f http://localhost:8080/api/health/ || exit 1
+    CMD curl -f http://localhost:8080/api/_health/ || exit 1
 
 EXPOSE 8080
 
