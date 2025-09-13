@@ -10,7 +10,7 @@
     "healthcheckPath": "/api/_health/",
     "healthcheckTimeout": 300,
     "environmentVariables": {
-      "BASEROW_PUBLIC_URL": "$RAILWAY_PUBLIC_DOMAIN",
+      "BASEROW_PUBLIC_URL": "https://$RAILWAY_PUBLIC_DOMAIN",
       "SECRET_KEY": "$SECRET_KEY",
       "DATABASE_PASSWORD": "$DATABASE_PASSWORD",
       "REDIS_PASSWORD": "$REDIS_PASSWORD",
