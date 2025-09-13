@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(docker:*)",
+      "Bash(docker-compose:*)",
+      "Bash(node:*)",
+      "Bash(npm:*)",
+      "Bash(./dev.sh:*)",
+      "WebSearch",
+      "Bash(claude mcp add:*)",
+      "Bash(claude mcp:*)",
+      "Bash(claude doctor)",
+      "Bash(systeminfo)",
+      "Bash(findstr:*)",
+      "Bash(wsl:*)",
+      "Bash(where git)",
+      "WebFetch(domain:baserow.io)",
+      "Bash(make:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
